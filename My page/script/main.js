@@ -22,7 +22,7 @@ function clearInputs() {
 
 $('#showSkills').click(function () {
     if ($('.abtMe_Skills').css('display') == 'none') {
-        $('.abtMe_Skills').css('display','block')
+        $('.abtMe_Skills').css('display','flex')
     } else {
         $('.abtMe_Skills').css('display','none')
     }
