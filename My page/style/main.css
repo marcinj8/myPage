@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Niconne', cursive;
+    outline: none;
 }
 
 body {
@@ -45,7 +46,7 @@ li {
 }
 
 .inline {
-   width: 100%;
+    width: 100%;
     display: flex;
 }
 
@@ -119,6 +120,15 @@ li {
 }
 
 .quote {
+    border: double 3px rgb(255, 102, 0);
+    margin: 25px auto;
+    padding: 15px;
+    width: 90%;
+    height: 85%;
+    border-radius: 3px;
+}
+
+.quote_animated {
     width: 100%;
     position: relative;
     top: 70px;
@@ -162,7 +172,7 @@ li {
 }
 
 .abtMe_Content {
-    width:70%;
+    width: 70%;
 }
 
 .abtMe_Skills {
@@ -176,24 +186,40 @@ li {
 }
 
 .myProjects {
-    margin: 25px auto 15px auto;
-    text-align: center;
-    width: 80%;
-    height: 80%;
     border: double 3px rgb(255, 102, 0);
+    margin: 25px auto;
     padding: 15px;
-    font-size: 25px;
+    width: 90%;
+    height: 85%;
     border-radius: 3px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.myProjects_gitLink {
+    font-family: 'Marck Script', cursive;
+    text-align: left;
+    padding: 15px;
+}
+
+.myProjects_gitLink a {
+    text-decoration: none;
+    color: rgb(255, 102, 0);
+}
+
+.myProjects_gitLink div {
+    color: rgb(0, 0, 0);
 }
 
 .form {
-    margin: 45px auto;
-    width: 80%;
-    text-align: center;
     border: double 3px rgb(255, 102, 0);
+    margin: 25px auto;
     padding: 15px;
-    font-size: 25px;
+    width: 90%;
+    height: 85%;
     border-radius: 3px;
+    text-align: center;
+    font-size: 25px;
 }
 
 .contactForm {
@@ -263,6 +289,7 @@ li {
 #send {
     transition: all .2s ease-in-out;
 }
+
 #clear:hover {
     -webkit-box-shadow: 0px 18px 25px -2px rgba(255, 0, 0, 0.75);
     -moz-box-shadow: 0px 18px 25px -2px rgba(255, 0, 0, 0.75);
@@ -277,6 +304,7 @@ li {
     transform: translateY(-3px);
     outline: none;
 }
+
 #send:hover {
     -webkit-box-shadow: 0px 18px 25px -2px rgba(0, 255, 0, 0.75);
     -moz-box-shadow: 0px 18px 25px -2px rgba(0, 255, 0, 0.75);
@@ -423,7 +451,6 @@ li {
     }
 }
 
-
 @media only screen and (max-width: 401px) {
     .nav {
         height: 29vh;
@@ -456,7 +483,36 @@ li {
     .contactForm_imput---Message {
         margin: 10px;
     }
-    .abtMe_Skills{
+    .abtMe_Skills {
         text-align: center;
+    }
+    .myProjects_gitLink {
+        font-size: 17px;
+    }
+}
+
+@media screen and (orientation: landscape) {
+    .nav {
+        height: 25vh;
+    }
+    .content {
+        height: 140vh;
+    }
+    .abtMe_Content {
+        font-size: 19px;
+        text-align: center;
+    }
+    .abtMe_Skills li {
+        text-align: center;
+    }
+    .contactForm {
+        display: block;
+        text-align: center;
+    }
+    .contactForm_imput {
+        margin: 10px auto;
+    }
+    .contactForm_imput---Message {
+        margin: 10px auto;
     }
 }

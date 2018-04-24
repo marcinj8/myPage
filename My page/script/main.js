@@ -4,7 +4,7 @@ $('.navItem').click(function () {
 })
 
 function greeting() {
-    $('.quote').animate({
+    $('.quote_animated').animate({
         top: '-20px',
         opacity: '1',
     }, 1750)

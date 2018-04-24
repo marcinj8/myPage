@@ -34,7 +34,7 @@
 <script>
 $('#showSkills').click(function () {
     if ($('.abtMe_Skills').css('display') == 'none') {
-        $('.abtMe_Skills').css('display','flex');
+        $('.abtMe_Skills').css('display','block');
         $('#showSkills').text('Back');
         $('.abtMe_Content').css('display','none');
     } else {
