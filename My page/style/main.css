@@ -491,12 +491,15 @@ li {
     }
 }
 
-@media screen and (orientation: landscape) {
+@media screen and (max-width: 901px) and (orientation: landscape) {
     .nav {
         height: 25vh;
     }
     .content {
         height: 140vh;
+    }
+    ..quote_animated {
+        top: 40px;
     }
     .abtMe_Content {
         font-size: 19px;

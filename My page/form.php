@@ -17,15 +17,15 @@
   }
   
   
-  else  {
+  // else  {
 ?>
 
- <div>
+ <!-- <div>
   Fill the form
  </div> 
   
 <?php
   }
-?>
+?> -->
 
 

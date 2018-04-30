@@ -2,7 +2,7 @@
 <div id='form_Information'>
 If you are intrested in cooperation, please contact me!
 </div>
-<form class='contactForm' action="../form.php" method="POST">
+<form class='contactForm' action="form.php" method="POST">
     <div>
         <input class='contactForm_imput' name='name'  placeholder='name'>
         <input class='contactForm_imput' name='subject' placeholder='phone number'>
@@ -38,9 +38,7 @@ If you are intrested in cooperation, please contact me!
 
     function clearInputs() {
         $('.contactForm_imput').val('');
-        $('.contactForm_imput---Message').val('');
-        // $('.contactForm_imput').css('border-color', 'red');
-        // $('.contactForm_imput---Message').css('border-color', 'red');
+        $('.contactForm_imput---Message').val(''); 
     }
 
     

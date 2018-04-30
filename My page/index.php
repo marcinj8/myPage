@@ -53,6 +53,8 @@
     <script src='jquery-3.2.1.min.js'></script>
     <script src='script/main.js'></script>
     <script src='script/ajax.js'></script>
+    <script src='form.php'></script>
+    
 </body>
 
 </html>
