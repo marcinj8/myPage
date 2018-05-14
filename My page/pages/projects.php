@@ -1,7 +1,10 @@
 <div class='myProjects'>
-  <div>Below you can check my few simple projects</div>
+  <div>Below you can check my CV and few simple projects</div>
   <div class='myProjects_gitLink'>
-    <a target=_blank href='https://github.com/marcinj8'>https://github.com/marcinj8<a>
+    <a target=_blank href='http://www.experience.marcinjanerka.com/'> Click to see my CV<a>
+  </div>
+  <div class='myProjects_gitLink'>
+    <a target=_blank href='https://github.com/marcinj8'>Click to see my repository<a>
   </div>
   <div class='myProjects_gitLink'>
     <a target=_blank href='https://github.com/marcinj8/parkiNarodowe'>Parki Narodowe<a>

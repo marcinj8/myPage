@@ -1,4 +1,4 @@
-<!DOCTYPE htm>
+<!DOCTYPE html>
 <html lang='pl-PL'>
 
 <head>
@@ -7,6 +7,7 @@
     <meta name="keywords" content="HTML,CSS,JavaScript, Marcin Janerka, programista, junior front-end developer">
     <meta name="author" content="Marcin Janerka">
     <meta charset="UTF-8">
+    <link rel="Shortcut icon" href="img/20180305_103641.jpg" />
     <link href='style/main.css' rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Italianno|Marck+Script|Niconne|Tangerine" rel="stylesheet">
     <link href='fontello-51f8f02e/css/fontello.css' rel="stylesheet" />
@@ -53,7 +54,6 @@
     <script src='jquery-3.2.1.min.js'></script>
     <script src='script/main.js'></script>
     <script src='script/ajax.js'></script>
-    <script src='form.php'></script>
     
 </body>
 

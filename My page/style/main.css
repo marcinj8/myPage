@@ -51,7 +51,7 @@ li {
 }
 
 .nav {
-    height: 10vh;
+    height: 50px;
     text-align: center;
     margin: 50px auto 20px auto;
     width: 60%;
@@ -102,7 +102,7 @@ li {
 
 .content {
     font-size: 20px;
-    height: 70vh;
+    height: 450px;
     width: 80%;
     padding: 5px 15px;
     margin: 5px auto;
@@ -321,7 +321,8 @@ li {
 }
 
 .socials {
-    height: 5vh;
+    padding-top: 20px;
+    height: 30px;
     width: 250px;
     text-align: center;
     margin: 10px auto;
@@ -383,7 +384,7 @@ li {
 
 @media only screen and (max-width: 1038px) {
     .nav {
-        height: 15vh;
+        height: 90px;
         text-align: center;
         margin: 20px auto 20px auto;
         width: 80%;
@@ -398,7 +399,7 @@ li {
     }
     .content {
         font-size: 20px;
-        height: 70vh;
+        height: 500px;
     }
     .abtMe_Skills ul li {
         font-size: 18px;
@@ -411,7 +412,7 @@ li {
     }
     .content {
         font-size: 20px;
-        height: 75vh;
+        height: 500px;
     }
     .contactForm {
         display: block;
@@ -436,6 +437,7 @@ li {
         display: none;
     }
     .abtMe_Content {
+        padding: 35px 5px;
         font-size: 18px;
         width: 90%;
         text-align: center;
@@ -453,7 +455,7 @@ li {
 
 @media only screen and (max-width: 401px) {
     .nav {
-        height: 29vh;
+        height: 180px;
         text-align: center;
         margin: 30px auto 30px auto;
         width: 70%;
@@ -468,11 +470,21 @@ li {
     }
     .content {
         font-size: 20px;
-        height: 100vh;
+        height: 600px;
     }
-    .content {
-        font-size: 20px;
-        height: 100vh;
+    .quote_sentence {
+       
+        margin-top: 100px;
+       
+    }
+    .abtMe_Content {
+        padding: 30px 5px;
+    }
+    .abtMe_Skills {
+        padding: 30px 5px;
+    }
+    .myProjects {
+        padding: 40px 5px;
     }
     .contactForm {
         display: block;
@@ -491,14 +503,14 @@ li {
     }
 }
 
-@media screen and (max-width: 901px) and (orientation: landscape) {
+/* @media screen and (max-width: 901px) and (orientation: landscape) {
     .nav {
         height: 25vh;
     }
     .content {
         height: 140vh;
     }
-    ..quote_animated {
+    .quote_animated {
         top: 40px;
     }
     .abtMe_Content {
@@ -517,5 +529,5 @@ li {
     }
     .contactForm_imput---Message {
         margin: 10px auto;
-    }
+    } */
 }
