@@ -9,7 +9,7 @@
     <meta charset="UTF-8">
     <link rel="Shortcut icon" href="img/20180305_103641.jpg" />
     <link href='style/main.css' rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css?family=Italianno|Marck+Script|Niconne|Tangerine" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Italianno|Marck+Script|Niconne|Tangerine|Courgette" rel="stylesheet">
     <link href='fontello-51f8f02e/css/fontello.css' rel="stylesheet" />
 </head>
 
@@ -54,6 +54,8 @@
     <script src='jquery-3.2.1.min.js'></script>
     <script src='script/main.js'></script>
     <script src='script/ajax.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.js'></script>
+
     
 </body>
 

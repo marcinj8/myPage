@@ -11,21 +11,21 @@
     <div>
         Working with:
         <uL>
-            <li>HTML5/CSS3</li>
-            <li>JavaScript</li>
-            <li>jQuery</li>
-            <li>AJAX</li>
-            <li>RWD</li>
+            <li  class='abtMe_Skill'>HTML5/CSS3</li>
+            <li class='abtMe_Skill'>JavaScript</li>
+            <li class='abtMe_Skill'>jQuery</li>
+            <li class='abtMe_Skill'>AJAX</li>
+            <li class='abtMe_Skill'>RWD</li>
         </uL>
     </div>
     <div>
         Experience with:
         <uL>
-            <li>Angular 2</li>
-            <li>GIT</li>
-            <li>PhotoShop</li>
-            <li>Wordpress</li>
-            <li> OOCSS and BEM (CSS methodology) </li>
+            <li class='abtMe_Skill'>Angular 2</li>
+            <li class='abtMe_Skill'>GIT</li>
+            <li class='abtMe_Skill'>PhotoShop</li>
+            <li class='abtMe_Skill'>Wordpress</li>
+            <li class='abtMe_Skill'> OOCSS and BEM (CSS methodology) </li>
         </uL>
     </div>
 </div>

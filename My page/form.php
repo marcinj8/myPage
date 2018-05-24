@@ -89,11 +89,11 @@ function test_input($data) {
     
   if ($send) {
     
-    header("Location:http://www.marcinjanerka.com/");
+    header("Location:http://www.marcinjanerka.com/"); 
 
   } else {
 
-    echo 'problem';   
+    echo 'Error';   
            
   }
 // }

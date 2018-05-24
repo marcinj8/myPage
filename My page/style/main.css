@@ -124,7 +124,7 @@ li {
     margin: 25px auto;
     padding: 15px;
     width: 90%;
-    height: 85%;
+    height: 90%;
     border-radius: 3px;
 }
 
@@ -158,7 +158,7 @@ li {
     margin: 25px auto;
     padding: 15px;
     width: 90%;
-    height: 85%;
+    height: 90%;
     border-radius: 3px;
 }
 
@@ -179,6 +179,13 @@ li {
     justify-content: space-around;
     margin: 5px auto;
     padding: 5px;
+    font-family: 'Courgette', cursive;
+    
+}
+.abtMe_Skill {
+    font-family: 'Courgette', cursive;
+    font-size: 15px;
+    margin: 5px 0 0 0;
 }
 
 #showSkills {
@@ -190,7 +197,7 @@ li {
     margin: 25px auto;
     padding: 15px;
     width: 90%;
-    height: 85%;
+    height: 90%;
     border-radius: 3px;
     text-align: center;
     font-size: 25px;
@@ -205,6 +212,7 @@ li {
 .myProjects_gitLink a {
     text-decoration: none;
     color: rgb(255, 102, 0);
+    text-shadow: 0 0 5px rgb(237, 224, 224);
 }
 
 .myProjects_gitLink div {
@@ -216,7 +224,7 @@ li {
     margin: 25px auto;
     padding: 15px;
     width: 90%;
-    height: 85%;
+    height: 90%;
     border-radius: 3px;
     text-align: center;
     font-size: 25px;
@@ -239,10 +247,11 @@ li {
     margin: 20px 10px;
     padding: 5px;
     width: 90%;
-    font-size: 20px;
+    font-size: 15px;
     transition: all .2s ease-in-out;
     outline: none;
     border-radius: 5px;
+    font-family: 'Courgette', cursive;
     border: solid 1.5px rgb(124, 124, 124);
 }
 
@@ -265,11 +274,12 @@ li {
     margin: 20px;
     padding: 5px;
     width: 90%;
-    font-size: 20px;
+    font-size: 15px;
     border-radius: 5px;
     border: solid 1.5px rgb(124, 124, 124);
     outline: none;
     transition: all .2s ease-in-out;
+    font-family: 'Courgette', cursive;
 }
 
 .contactForm_imput---Message:hover {
@@ -285,6 +295,16 @@ li {
     box-shadow: 0px 18px 25px -2px rgba(0, 0, 0, 0.75);
     border-color: rgb(255, 102, 0);
 }
+.form_error{
+    font-size: 18px;
+    color:red;
+    margin:0px;
+}
+
+.green{
+    color: green;
+    text-decoration: underline;
+}   
 
 #send {
     transition: all .2s ease-in-out;
@@ -404,6 +424,9 @@ li {
     .abtMe_Skills ul li {
         font-size: 18px;
     }
+    .abtMe_Skill {
+        font-size: 14px;
+    }
 }
 
 @media only screen and (max-width: 700px) {
@@ -412,7 +435,7 @@ li {
     }
     .content {
         font-size: 20px;
-        height: 500px;
+        height: 615px;
     }
     .contactForm {
         display: block;
@@ -421,32 +444,42 @@ li {
         width: 80%;
     }
     .form {
-        margin: 15px auto;
         display: block;
     }
     .form div {
-        font-size: 15px;
+        font-size: 21px;
     }
     .contactForm_imput {
-        margin: 10px;
+        margin: 10px auto;
+        width:98%;
     }
     .contactForm_imput---Message {
-        margin: 0px auto;
+        margin: 10px auto;
+        width:98%;
     }
     .abtMe_Photo {
         display: none;
     }
     .abtMe_Content {
-        padding: 35px 5px;
-        font-size: 18px;
+        margin: 0 auto;
+        padding: 55px 5px;
+        font-size: 25px;
         width: 90%;
         text-align: center;
     }
     .abtMe_Skills {
         display: none;
-        font-size: 10px;
+        font-size: 25px;
         text-align: center;
     }
+    .abtMe_Skill {
+        font-size: 20px;
+        padding: 2px;
+    }
+    .abtMe_Skills ul li {
+        margin-left: 10px;
+    }
+
     #showSkills {
         display: block;
         margin: 40px auto;
@@ -470,7 +503,8 @@ li {
     }
     .content {
         font-size: 20px;
-        height: 600px;
+        height: 700px;
+        width: 97%;
     }
     .quote_sentence {
        
@@ -479,9 +513,14 @@ li {
     }
     .abtMe_Content {
         padding: 30px 5px;
+        font-size: 23px;
+        width: 100%;
     }
     .abtMe_Skills {
-        padding: 30px 5px;
+        font-size: 21px;
+        text-align: center;
+        
+        
     }
     .myProjects {
         padding: 40px 5px;
@@ -491,15 +530,15 @@ li {
         margin: 10px auto;
         text-align: center;
         width: 90%;
+        border: 2px solid transparent;
     }
-    .contactForm_imput---Message {
-        margin: 10px;
+    .form_error{
+        font-size: 13px;
+        color:red;
     }
-    .abtMe_Skills {
-        text-align: center;
-    }
+   
     .myProjects_gitLink {
-        font-size: 17px;
+        font-size: 23px;
     }
 }
 
@@ -530,4 +569,4 @@ li {
     .contactForm_imput---Message {
         margin: 10px auto;
     } */
-}
+/* } 
